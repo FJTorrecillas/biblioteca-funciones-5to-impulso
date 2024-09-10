@@ -26,7 +26,8 @@ public class App {
 
     // División de dos números
     public static double division(int a, int b) {
-        return (double) 2 / 2;
+        double divi= a/b;
+        return divi;
     }
 
     // Máximo de dos números
