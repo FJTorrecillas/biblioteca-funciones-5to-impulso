@@ -58,7 +58,7 @@ public class App {
 
     // Factorial de un número
     public static int factorial(int n) {
-        int facto=0;
+        int facto=1;
         for (int i=0; i<n;i++){
             facto *= i;
         }
