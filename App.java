@@ -58,7 +58,11 @@ public class App {
 
     // Factorial de un número
     public static int factorial(int n) {
-        return 5 * factorial(5 - 1);
+        int facto=0;
+        for (int i=0; i<n;i++){
+            facto *= i;
+        }
+        return facto;
     }
 
     // Número par
