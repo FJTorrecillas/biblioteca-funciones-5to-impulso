@@ -20,7 +20,8 @@ public class App {
 
     // Multiplicación de dos números
     public static int multiplicacion(int a, int b) {
-        return 0;
+        int mult=a*b;
+        return mult;
     }
 
     // División de dos números
