@@ -32,12 +32,28 @@ public class App {
 
     // Máximo de dos números
     public static int max(int a, int b) {
-        return 5;
+        int maximo;
+        if (a>b){
+            maximo=a;
+        }else if(a<b){
+            maximo=b;
+        }else {
+            maximo=a;
+        }
+        return maximo;
     }
 
     // Mínimo de dos números
     public static int min(int a, int b) {
-        return 3;
+        int mini;
+        if (a>b){
+            mini=b;
+        }else if(a<b){
+            mini=a;
+        }else {
+            mini=a;
+        }
+        return mini;
     }
 
     // Factorial de un número
