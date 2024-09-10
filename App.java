@@ -67,7 +67,13 @@ public class App {
 
     // Número par
     public static boolean esPar(int n) {
-        return true;
+        boolean pare=false;
+        if (n%2==0){
+            pare=true;
+        }else {
+            pare=false;
+        }
+        return pare;
     }
 
     // Número impar
