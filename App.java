@@ -9,12 +9,13 @@ public class App {
     // Suma de dos números
     public static int suma(int a, int b) {
         int sumar=a+b;
-        return 0; 
+        return sumar; 
     }
 
     // Resta de dos números
     public static int resta(int a, int b) {
-        return 0;
+        int res=a-b;
+        return res;
     }
 
     // Multiplicación de dos números
