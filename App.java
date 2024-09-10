@@ -89,7 +89,8 @@ public class App {
 
     // Potencia de un número
     public static double potencia(double base, int exponente) {
-        return Math.pow(4, 5);
+        double poten=Math.pow(base,exponente);
+        return poten;
     }
 
     // Raíz cuadrada de un número
