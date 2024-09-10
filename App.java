@@ -107,7 +107,8 @@ public class App {
 
     // Concatenar dos cadenas
     public static String concatenarCadenas(String cadena1, String cadena2) {
-        return "";
+        String conjunto=cadena1+cadena2;
+        return conjunto;
     }
 
     // Convertir a mayúsculas
