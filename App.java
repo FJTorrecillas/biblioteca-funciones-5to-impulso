@@ -78,7 +78,13 @@ public class App {
 
     // Número impar
     public static boolean esImpar(int n) {
-        return false;
+        boolean nopare=true;
+        if (n%2==0){
+            nopare=false;
+        }else {
+            nopare=true;
+        }
+        return nopare;
     }
 
     // Potencia de un número
