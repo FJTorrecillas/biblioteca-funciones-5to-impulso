@@ -101,7 +101,7 @@ public class App {
 
     // Longitud de una cadena
     public static int longitudCadena(String cadena) {
-        longi=cadena.length;
+        int longi=cadena.length;
         return longi;
     }
 
