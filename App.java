@@ -173,8 +173,13 @@ public class App {
 
     // Encontrar el mínimo en un array
     public static int minArray(int[] array) {
-
-        return 3;
+        int min = array[0];
+        for (int num : array) {
+            if (num < min) {
+                min = num;
+            }
+        }
+        return min;
     }
 
     // Ordenar un array
