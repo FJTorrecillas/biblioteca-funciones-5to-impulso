@@ -120,7 +120,9 @@ public class App {
 
     // Convertir a minúsculas
     public static String convertirMinusculas(String cadena) {
-        return "c";
+        String minus;
+        minus=cadena.toLowerCase();
+        return minus;
     }
 
     // Revertir una cadena
