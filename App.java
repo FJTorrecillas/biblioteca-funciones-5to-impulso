@@ -113,7 +113,9 @@ public class App {
 
     // Convertir a mayúsculas
     public static String convertirMayusculas(String cadena) {
-        return "H";
+        String mayus;
+        mayus=cadena.toUpperCase();
+        return mayus;
     }
 
     // Convertir a minúsculas
